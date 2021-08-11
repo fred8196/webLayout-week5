@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+.fs-sm {
+  font-size: 0.875rem; }
+
+.fs-xs {
+  font-size: 0.75rem; }
+
+.text-gray-600 {
+  color: #6c757d; }
+
+.bg-gray-100 {
+  background-color: #f8f9fa; }
+
+.text-right {
+  text-align: right; }
+
+.profile-photo {
+  height: 40px;
+  width: 40px;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+body {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+p {
+  margin: 0; }
+
+.text-hide {
+  display: block;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.header {
+  height: 100vh;
+  width: 296px;
+  background-color: #f8f9fa;
+  padding: 32px 0px; }
+  .header h1 {
+    padding: 0 32px; }
+    .header h1 a {
+      background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg) no-repeat; }
+
+.sidebar {
+  height: 100%; }
+  .sidebar-list a {
+    color: #000;
+    display: block;
+    padding: 0 32px;
+    border-left: 4px solid transparent; }
+    .sidebar-list a:hover {
+      color: #198754;
+      border-left: 4px solid #198754; }
+  .sidebar-profile {
+    padding: 0 32px; }
+
+.main {
+  padding: 32px;
+  width: 100%; }
+
+.assignment-content {
+  width: 100%; }
+
+.ck-editor__editable {
+  min-height: 319px; }
+
+.card-body_assignment {
+  position: relative; }
+
+/*# sourceMappingURL=all.css.map */
