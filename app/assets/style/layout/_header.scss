@@ -1,0 +1,30 @@
+.header {
+  height: 100vh;
+  width: 296px;
+  background-color: $gray-100;
+  padding: 32px 0px;
+  h1 {
+    padding: 0 32px;
+    a {
+      background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg)
+        no-repeat;
+    }
+  }
+}
+
+.sidebar {
+  height: 100%;
+  &-list a {
+    color: $black;
+    display: block;
+    padding: 0 32px;
+    border-left: 4px solid transparent;
+    &:hover {
+      color: $success;
+      border-left: 4px solid $success;
+    }
+  }
+  &-profile {
+    padding: 0 32px;
+  }
+}

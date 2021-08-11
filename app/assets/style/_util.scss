@@ -1,0 +1,40 @@
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+$success: #198754;
+
+$fs-base: 1rem;
+
+.fs-sm {
+  font-size: $fs-base * 0.875;
+}
+
+.fs-xs {
+  font-size: $fs-base * 0.75;
+}
+
+.text-gray-600 {
+  color: $gray-600;
+}
+
+.bg-gray-100 {
+  background-color: $gray-100;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.profile-photo {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
